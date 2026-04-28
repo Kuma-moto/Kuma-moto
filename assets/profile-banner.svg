@@ -1,0 +1,52 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" rx="28" fill="#0D1117"/>
+  <defs>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 80) rotate(145) scale(520 300)">
+      <stop stop-color="#238636" stop-opacity="0.85"/>
+      <stop offset="0.45" stop-color="#1F6FEB" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="110" y1="230" x2="1090" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#238636" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#238636"/>
+      <stop offset="0.5" stop-color="#58A6FF"/>
+      <stop offset="0.82" stop-color="#238636"/>
+      <stop offset="1" stop-color="#238636" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#g1)"/>
+
+  <g opacity="0.22">
+    <path d="M70 70H220M70 115H180M70 160H250M70 205H160" stroke="#58A6FF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M930 62H1115M995 107H1115M890 152H1115M965 197H1115" stroke="#238636" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <path d="M110 230 C250 170, 350 170, 500 230 S770 290, 930 220 S1040 170, 1090 205" stroke="url(#line)" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <g transform="translate(520 190)">
+    <rect x="0" y="0" width="160" height="58" rx="18" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+    <circle cx="42" cy="29" r="13" fill="#58A6FF"/>
+    <circle cx="118" cy="29" r="13" fill="#58A6FF"/>
+    <path d="M28 29H132" stroke="#8B949E" stroke-width="4" stroke-linecap="round"/>
+    <path d="M45 0L70 -35H105L132 0" stroke="#30363D" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="80" y="110" fill="#F0F6FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">
+    Maksim Tikhonov
+  </text>
+  <text x="80" y="156" fill="#8B949E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">
+    ML Researcher & Python Developer
+  </text>
+  <text x="80" y="196" fill="#58A6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
+    Deep RL · CARLA · Intelligent Control · Autonomous Ground Vehicles
+  </text>
+
+  <g transform="translate(80 248)">
+    <rect x="0" y="0" width="146" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+    <text x="22" y="23" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">SAC / PPO / DDPG</text>
+    <rect x="160" y="0" width="96" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+    <text x="184" y="23" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">YOLOv11</text>
+    <rect x="270" y="0" width="172" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+    <text x="292" y="23" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Stable-Baselines3</text>
+  </g>
+</svg>
