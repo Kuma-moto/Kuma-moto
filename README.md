@@ -1,6 +1,6 @@
 <div align="center">
 
-![Maksim Tikhonov — ML Researcher & Python Developer](./assets/profile-banner.svg)
+![Maksim Tikhonov — ML Researcher & Python Developer](./assets/profile-banner.png)
 
 # Hi, I'm Maksim Tikhonov 👋
 
